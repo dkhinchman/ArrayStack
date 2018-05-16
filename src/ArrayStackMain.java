@@ -1,7 +1,7 @@
 import com.hinchman.arraystack.ArrayStack;
 
 public class ArrayStackMain {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ArrayStack myStack = new ArrayStack(5);
 
         myStack.push(5);
@@ -11,10 +11,21 @@ public class ArrayStackMain {
         myStack.push(9);
         myStack.printStack();
 
+        myStack.pop();
         myStack.peek();
+        myStack.printStack();
 
+        myStack.pop();
+        myStack.peek();
+        myStack.printStack();
+
+        myStack.pop();
+        myStack.peek();
+        myStack.printStack();
+
+        myStack.pop();
+        myStack.peek();
+        myStack.printStack();
     }
-
-
 
 }
